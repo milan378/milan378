@@ -1,10 +1,10 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Developer","Designer","An Avid Reader", "Writer"];
-const typingDelay = 50;
-const erasingDelay = 100;
-const newTextDelay = 2000; // Delay between current and next text
+const textArray = ["A Developer","A Designer","An Avid Reader", "An Anonymous Writer"];
+const typingDelay = 100;
+const erasingDelay = 50;
+const newTextDelay = 100; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -39,3 +39,17 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+
+var allImages = "";
+
+for (var i = 0; i < 25; i++) {
+  var width = getRandomSize(200, 400);
+  var height =  getRandomSize(200, 400);
+  allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="pretty kitty">';
+}
+
+$('#photos').append(allImages);
