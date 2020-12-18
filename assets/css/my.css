@@ -10,6 +10,12 @@ body {
   background-color: #000;
   color: #eee;
 }
+.logo{
+  max-width: 10%;
+    height: auto;
+    border-radius: 50%;
+
+}
 .typeWriterDiv {
   height: 100vh;
   display: flex;
