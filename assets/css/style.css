@@ -33,7 +33,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -63,7 +68,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header h1 a, #header h1 a:hover {
+#header h1 a,
+#header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -111,34 +117,32 @@ h1, h2, h3, h4, h5, h6 {
   background: #18d26e;
 } */
 .linkedin:hover {
-  background: #181bd2!important;
-} 
+  background: #181bd2 !important;
+}
 .fa-stack-overflow:hover {
-  background: #f14b09!important;
-} 
+  background: #f14b09 !important;
+}
 .facebook:hover {
-  background: #181bd2!important;
-} 
+  background: #181bd2 !important;
+}
 .github:hover {
-  background: #000000!important;
-} 
+  background: #000000 !important;
+}
 .fa-quora:hover {
-  background: #ff0000!important;
-} 
+  background: #ff0000 !important;
+}
 .gmail:hover {
-  background: #0cd60c!important;
-} 
+  background: #0cd60c !important;
+}
 .Medium:hover {
-  background: #050000!important;
-} 
+  background: #050000 !important;
+}
 .instagram:hover {
-  background: #b10438!important;
-} 
+  background: #b10438 !important;
+}
 .fa-slack:hover {
-  background: #580081!important;
-} 
-
-
+  background: #580081 !important;
+}
 
 @media (max-width: 992px) {
   #header h1 {
@@ -156,8 +160,18 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
+  .titleDiv .avatar {
+    top: -47px;
+    left: 61%;
+  }
+  .titleDiv {
+    margin-left: -40px;
+  }
 }
 
+.titleDiv {
+  margin-right: 181px;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -199,12 +213,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #fff;
   text-decoration: none;
 }
@@ -261,7 +279,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #18d26e;
   text-decoration: none;
 }
@@ -299,10 +319,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgb(94 71 103)
+  background: rgb(94 71 103);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 
@@ -326,6 +347,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header.header-top h1 {
     font-size: 26px;
+  }
+}
+
+@media (max-width: 692px) {
+  .titleDiv .avatar {
+    top: -42px;
+    left: 61%;
+  }
+  #header.header-top h1 {
+    margin-right: 13px;
   }
 }
 
@@ -436,7 +467,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background:rgb(241 229 229 / 25%);
+  background: rgb(241 229 229 / 25%);
 }
 
 .counts .count-box i {
@@ -496,7 +527,7 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #18d26e;
 }
 
@@ -507,7 +538,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background:rgb(0 0 0 / 72%);
+  background: rgb(0 0 0 / 72%);
   transition: ease-in-out 0.3s;
 }
 
@@ -527,7 +558,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: rgb(127 95 206 / 85%)
+  background: rgb(127 95 206 / 85%);
 }
 
 /*--------------------------------------------------------------
@@ -560,7 +591,8 @@ section .container {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
@@ -589,7 +621,8 @@ section .container {
   z-index: 1;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -690,7 +723,7 @@ section .container {
   height: 64px;
   background: #18d26e;
   border-radius: 5px;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -705,14 +738,14 @@ section .container {
 
 .services .icon-box .icon::before {
   position: absolute;
-  content: '';
+  content: "";
   left: -8px;
   top: -8px;
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 5px;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
 
@@ -749,7 +782,8 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
   color: #fff;
 }
 
@@ -784,7 +818,8 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #18d26e;
 }
 
@@ -926,7 +961,7 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background:  rgb(64 57 57 / 60%);
+  background: rgb(64 57 57 / 60%);
 }
 
 .contact .info-box h3 {
@@ -969,7 +1004,7 @@ section .container {
 
 .contact .php-email-form .validate {
   display: none;
-  color: #FFF;
+  color: #fff;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1017,7 +1052,8 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1027,31 +1063,37 @@ section .container {
   color: #fff;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-   background-color:rgb(135 115 138);
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  background-color: rgb(135 115 138);
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
+.contact .php-email-form input:-ms-input-placeholder,
+.contact .php-email-form textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
+.contact .php-email-form input::-ms-input-placeholder,
+.contact .php-email-form textarea::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -1100,7 +1142,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background:rgb(241 229 229 / 25%);
+  background: rgb(241 229 229 / 25%);
   position: fixed;
   left: 0;
   right: 0;
@@ -1120,7 +1162,8 @@ section .container {
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1188,7 +1231,7 @@ section .container {
   .credits {
     text-align: center;
     padding: 10px;
-  background:rgb(241 229 229 / 25%);
+    background: rgb(241 229 229 / 25%);
   }
 }
 
@@ -1200,8 +1243,3 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-
-
-
-
