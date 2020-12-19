@@ -1242,4 +1242,27 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+<<<<<<< HEAD
 }
+=======
+}
+
+.divClas {
+  display: block;
+}
+.avatar {
+  background: #040404 url(../img/logo.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: -46px;
+  left: 64%;
+  margin-bottom: -49px;
+  border: 2px solid white;
+  border-radius: 50px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+>>>>>>> bf71e1629c469c7b07063582329179980b9a9e9b
