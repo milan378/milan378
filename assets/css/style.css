@@ -71,9 +71,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-
   background-image: url("bg.jpg");
-  
   background-size: cover;
   left: 0;
   right: 0;
@@ -189,6 +187,15 @@ h6 {
 .facebook:hover {
   background: #181bd2 !important;
 }
+.call:hover {
+  background: #e8dada !important;
+}
+.email:hover {
+  background: #5e5353 !important;
+}
+.whatsapp:hover {
+  background: #008000 !important;
+}
 .github:hover {
   background: #000000 !important;
 }
@@ -202,7 +209,7 @@ h6 {
   background: #050000 !important;
 }
 .instagram:hover {
-  background: #b10438 !important;
+  background: #ab65cf !important;
 }
 .fa-slack:hover {
   background: #580081 !important;
@@ -1306,9 +1313,6 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-<<<<<<< HEAD
-}
-=======
 }
 
 .divClas {
@@ -1329,4 +1333,3 @@ section .container {
   border-radius: 50px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.35);
 }
->>>>>>> bf71e1629c469c7b07063582329179980b9a9e9b
