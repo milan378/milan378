@@ -150,11 +150,15 @@
         filter: $(this).data('filter')
       });
     });
-
   });
-
   // Initiate venobox (lightbox feature used in portofilo)
+
+ // window.onload = function(){ document.querySelector(".preloader").style.display = "none"; }
+  $(window).on('load', function () {
+    $('.preloader').delay(4000).fadeOut(500);
+});
   $(document).ready(function() {
+   
     $('.venobox').venobox({
       'share': false
     });
