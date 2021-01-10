@@ -1350,13 +1350,17 @@ text-align: center;
   width: 25%;
   border-radius: 95% 62% 55% 29%;
 }
+ 
+ .preloader{background-color: #dec9c9;}
 @media only screen and (max-width: 500px) {
   .preloader-icon
 {
   position: relative;
-  top: 25%;
-  width: 36%;
-  height: 45%;  border-radius: 95% 62% 55% 29%;
+  top: 22%;
+  left: 4%;
+  width: 66%;
+  height: 47%;
+  border-radius: 95% 62% 55% 29%;
 }
 }
 

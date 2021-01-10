@@ -155,7 +155,7 @@
 
  // window.onload = function(){ document.querySelector(".preloader").style.display = "none"; }
   $(window).on('load', function () {
-    $('.preloader').delay(2000).fadeOut(400);
+   $('.preloader').fadeOut(2000);
 });
   $(document).ready(function() {
    
